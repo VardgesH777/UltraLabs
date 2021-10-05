@@ -1,0 +1,31 @@
+.individual-item{
+  width: 70%;
+  margin: 50px auto 0;
+  .user{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    .individual-info {
+      padding: 15px 10px;
+      border-right: 2px solid;
+      width: calc((100% - 30px)  / 5);
+      text-align: center;
+      span{
+        display: inline-block;
+        font-weight: bold;
+        font-size: 17px;
+      }
+    }
+    .make-favorite{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      cursor: pointer;
+    }
+
+    .individual-info:last-child{
+      border: unset;
+    }
+  }
+}
